@@ -22,7 +22,7 @@ const Header = () => {
 
             <div className="right">
                 <div className="search">
-                    <MdShoppingBasket className="search-icon"/>
+                    <MdOutlineSearch className="search-icon"/>
                     <button className="sch-btn">Search</button>
                 </div>
                 <div className="right-buttons">
