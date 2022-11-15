@@ -11,9 +11,7 @@ const Header = () => {
                 <li className="li-items">
                     <Link to='/women'>Women</Link>
                     <Link to='/men'>Men</Link>
-                    <Link to='/denim'>Denim</Link>
-                    <Link to='/shop' className='orange'>Gift Shop</Link>
-                    <Link to='/about'>About</Link>
+                    
                 </li>
             </ul>
             <div className="logo">
