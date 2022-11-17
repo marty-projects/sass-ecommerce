@@ -1,19 +1,31 @@
 @import './colors';
+@import './mobile.section';
 
+html {
+    font-size: 62.5%;
+  }
 
+  body {
+      width: 100vw;
+  }
+  
 .main-section {
+
+
     background: linear-gradient(to right bottom, rgba(150, 171, 111, 100),rgba(233, 197, 148, 100));
     background-image: url(../assets/main-img.jpg);
     height: 80vh;
     background-size: cover;
     overflow: hidden;
     .content {
+       
         margin: 12rem;
         text-align: center;
         h1 {
             font-size: 4rem;
             color: $main-color;
             text-shadow: 3px 3px 3px $main-color;
+           
         }
 
         button {
@@ -42,3 +54,7 @@
         }
     }
 }
+
+
+
+

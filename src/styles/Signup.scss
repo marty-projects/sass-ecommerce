@@ -1,22 +1,24 @@
 @import './colors';
 @import './buttons';
 
+
 .sign-upPage {
-    background-color: $green-section;
-    height: 100vh;
+    background-color: $green-color;
     width: 100%;
+    height: 100vh;
     overflow: hidden;
 
     .signup-form {
-        align-items: center;
-        width: 35rem;
-        display: flex;
-        flex-direction: column;
-        margin: 10rem 25rem;
+        font-family: arial,sans-serif;
+        color: $main-color;
+        font-size: 20px;
+        margin: 10rem 20rem;
+        text-align: center;
+        display: block;
+        width: 50%;
         
         .input {
-            font-family: arial,sans-serif;
-            padding: 0.5rem
+            padding: 2rem
         }
         label {
             color: $main-color;
@@ -25,7 +27,7 @@
 
         input {
             width: 100%;
-            padding: 8px;
+            padding: 1rem;
         }
         button {
             @include button;

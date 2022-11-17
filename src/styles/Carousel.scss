@@ -1,4 +1,5 @@
 @import './colors';
+@import './fonts';
 
 .car {
     width: 100%;
@@ -42,9 +43,10 @@
     flex-direction: column;
     align-items: center;
     .texts {
+        font-family: $font;
         margin-top: 1rem;
         p {
-            font-family: arial,sans-serif;
+
             margin: 2rem;
         }
         

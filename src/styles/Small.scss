@@ -1,22 +1,27 @@
 @import './colors';
+@import './fonts';
+
 
 .lower-section {
 
+    font-family: $font;
     background-color: $main-color;
     width: 100%;
-    height: 100vh;
-    padding: 2rem;
+    height: auto;
+    margin-bottom: 10rem;
+    
 
     .allcard {
         justify-content: center;
-        display: grid;
-        grid-template-columns: repeat(4,300px);
+        display: flex;
+        flex-direction: row;
+        
         //overflow: hidden;
         gap: 2rem;
         .card {
             font-family: arial,sans-serif;
-            height: 100%;
-            width: 100%;
+            height: 100;
+            width: 100;
             cursor: pointer;
             img {
                 width: 100%;

@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Main.scss'
-import bus from '../assets/bus.png'
-import box from '../assets/box.png'
+import bus from '../assets/bus.png';
 import card from '../assets/card.png'
 import gift from '../assets/gift.png'
 
